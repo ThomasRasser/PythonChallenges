@@ -1,3 +1,4 @@
+# URL: http://www.pythonchallenge.com/pc/def/channel.html
 #region Challenge 6
 import os
 import zipfile

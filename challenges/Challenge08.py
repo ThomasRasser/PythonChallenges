@@ -1,3 +1,5 @@
+# URL: http://www.pythonchallenge.com/pc/def/integrity.html
+# URL: http://www.pythonchallenge.com/pc/def/integrity.html
 #region Challenge 8
 import os
 import bz2
