@@ -23,7 +23,8 @@ for i in range(0, 1000):
 
 print("".join(comments))
 
-solution_url = "http://www.pythonchallenge.com/pc/def/oxygen.html"
+solution = "oxygen"
+solution_url = "http://www.pythonchallenge.com/pc/def/" + solution + ".html"
 print("\n" + solution_url)
 os.system('echo ' + solution_url + ' | clip')
 

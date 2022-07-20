@@ -17,7 +17,8 @@ for line in data:
         print(tuple[0] * tuple[1], end="")
     print("")
 
-solution_url = "http://www.pythonchallenge.com/pc/def/channel.html"
+solution = "channel"
+solution_url = "http://www.pythonchallenge.com/pc/def/" + solution + ".html"
 print("\n" + solution_url)
 os.system('echo ' + solution_url + ' | clip')
 

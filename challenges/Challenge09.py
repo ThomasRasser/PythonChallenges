@@ -18,7 +18,8 @@ draw.polygon(first, fill='white')
 draw.polygon(second, fill='white')
 im.show()
 
-solution_url = "http://www.pythonchallenge.com/pc/return/bull.html"
+solution = "bull"
+solution_url = "http://www.pythonchallenge.com/pc/return/" + solution + ".html"
 print("\n" + solution_url)
 os.system('echo ' + solution_url + ' | clip')
 

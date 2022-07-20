@@ -13,10 +13,12 @@ password = b'BZh91AY&SY\x94$|\x0e\x00\x00\x00\x81\x00\x03$ \x00!\x9ah3M\x13<]\xc
 decompressed_username = bz2.decompress(username)
 decompressed_password = bz2.decompress(password)
 
-print("Username: " + str(decompressed_username))
-print("Password: " + str(decompressed_password))
+# [2:-1] since the the crddentials look like this: b'username'
+print("Username: " + str(decompressed_username)[2:-1])
+print("Password: " + str(decompressed_password)[2:-1])
 
-solution_url = "http://www.pythonchallenge.com/pc/return/good.html"
+solution = "good"
+solution_url = "http://www.pythonchallenge.com/pc/return/" + solution + ".html"
 print("\n" + solution_url)
 os.system('echo ' + solution_url + ' | clip')
 
